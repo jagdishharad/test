@@ -1,0 +1,127 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJUndNd01Vd0krdW93RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBM01ESXdOalE0TkROYUZ3MHpOREEyTXpBd05qVXpORE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURRT09TUUZnaWE3aXBnNHRVbkpjalFXclF6RWtqbUNpb1lTaUNEVnhKNEt5OEVxN3lDeFErMHo3eWMKenZhbmJ0ZEVBMXlCM2JPSlYwRUJyQ0FPYnJBVkE2QVFnUS82dDNSRzY4Mk9obUZDUCtLb2lkNjVXREpnMTR5dgp3YWVha0s2SU9EUzMzT3hLODhReXJhVUdNZkZTN1hmOU9nSDNrRFV3UHJkQklMMmxpREVkWStKZ1FtUVJEeTRUCjI1RmFrMGVPZ09LaC9GQ08xSUJ4aFFkcU9Ua2U4bEFUY1J5YUI1a3c5ZVdTNUdaYS9nOVpQRHFVdW84VW5ISjkKNjY2SkZMVjJhRnZvQnJJcTJBdHViTklBTi94ZVdzT1VqaHpucnNzNVNheFZRRUdDMDNjNXdXaVhJZEt5MUFrYgoySy9aczYxWEZMZVpmb3k4Z09YRzJpa3JvTXRKQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJSeE5lKytVMTB5MzMwdExBTER4V1lmUmIvcllUQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVZocEpmOGkxMwp1VHZ3K25aV1RqOU44N1RaMW1WNjh4T2cyYnZaZTUyWjJwMTM3N1c2blVjRk5MNkpoMk5HSDA1Y0JyS1RNL29KCjA2ZGo2QzdITUxMMGw4Ujl5bC9JNytBU1BRQmNJblZBR0JWNlFvUDhSaEVGZzRrOXg2Q1lSeUJGVm1OVlZPK3YKVzlsdVVnd1RkMTkrT21PcHFvdUhoQlVVdUIvbFE5T0c2ZzcvcHIva0FRV21jRVBJSE0veENwTVRVUVFHbFBwaApiK2RsdlhTTDhpYVNiV3VkK3N2ZEJrUmtIcjZyNVc2U29qdWhmNDFFbUlSRzVaS1hpS0NHS0QxK1lmK0NWRkJFCmRxdEVQK1E2OWphbEZUWGFkQU1BdTVCOGhtZjNGWWNwV3FEUnJ3WWVuVWhnM0wrY1U2b2VzdGZLSis2YzMybHYKS09Lck5SQkQvcC9FCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://BE9F83E74181AA963FA6EE8F4185BC84.gr7.us-east-1.eks.amazonaws.com
+  name: arn:aws:eks:us-east-1:399625629242:cluster/upper-ct-apps-us-east-1-eks-caas-03
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJZERaSXI0YWZqOVl3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRFd01qUXhNalF4TXpsYUZ3MHpOREV3TWpJeE1qUTJNemxhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNsVXRWT0FTKzlhK3I0RnZFYkU4QVY1S250N1QvSkZqVFpsMWpxYXV5MmZCWFpMSSt3WTgwQVZiMGQKME95Wkg0QXFzeHN5UXczREIxRVEwU0FnN1JrQjYwdWNlaU1KNTNBL1cvZzBvV1hFNTU3eTFRd0VIY3l5dDhyRQpZcW9QeDNJaGc0cTEzSFBoU3Q1cHNhWXg1QXM0a3A4Yi9hMmtKS2Uxa0o3VmxXRmtYZjJHdTYzUWFEaitNMnlmClRCc21Yd2J5UUNzZVZxZkhkelp1WDVxc2Z0b0k2VFRCL1ZiaHl6UmlGQlh4N3FUb3RyRys3R05RNGtmaWYvZ0UKdkgwTzdqZDlOU3J6VlZGa0RxckJ0VFQwUkRnWGhyYjR1Ukp2eFhZZXg0d1Iya0RyZi93QzVpS2E3d1BQVmhoNQpFYU1zUmlwYUo4bHdQYUg4bzRqWlJaOUNncUhIQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUbXlDcTJWT0lDNm1VN0wyY0RiQnNCaTFGRml6QVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ2RnWnRVVzJ1UgorbEtYWGZSRHR4NzluamNta2N5MDJjSXBsS3JpREJZRnZYdGM4VndqaEZrR2d6ejZKRzhvKzZnZC9uVy9ucjU2CkVPY0pldDM2Y2Z4eWJuT3E0VHFWSThQMFV5eWRJelhhK0VJbjExaE5kY05jNnd4NWFqRlpEQS9QdU9xdHRMT3AKYlJLaE9jWGorbEhreE54QlNiL0JFcytrSmR0ZGRyOGxNbGxjQmFZejJrWU1ZNkZFQmRGck5yYmdQRENXSWhKeAoyc2NxeWZoUWRsdWxXdG9YWHRJSXdHVWFFclFIRC9ZeG5LTHcwMFVUMGg5UU9yeHh0N2Z0VXN0MnZJTm9jMXJLCmYwbndWSHRZODFyQjhadDNlODErUmR6bFY2VU1mbFBHRnA2Ri9NVE5jQ1pFd3lVM2NhM1dVSTM0RkVBbDJpTFIKaU5yMTBTdFNENDdMCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://2A23036F2501CABB7F3A6160B95C04BC.gr7.us-east-1.eks.amazonaws.com
+  name: arn:aws:eks:us-east-1:399625629242:cluster/upper-ct-apps-us-east-1-eks-caas-04
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJZmFBaThtWkpDZmd3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBM01ERXhNekkzTWpsYUZ3MHpOREEyTWpreE16TXlNamxhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURRMUVVb3pYZk9kRFdHeXUzZmlTcG1GTGVIWldXNG96UHdzM2dHZVhHTlcrUVlnYktYNEJrSFJvS04KYnQvdGtoS203VHNwTi9pY0ZZYU16WDUwTDcvMEg3TGhrdEdmOURLVHVqbU52bDV0OERYT3JQcXBJcVZocnQ3aQo3VnpIUmVzQ3BmWWpuWXRjbmNyN3JnVVBVTHdWcDBVVjg0MDdZNHdKZ1BkY24rM00rT1B2VGlUaEtiU1o4d0lkClRqNGFSYjhQR1ArckF2blU2dnZ0bjNVQS9wcXdHRzY4YTF5dnd5blB0TGVZV1NrdjcvUTg3ZHlVdWladnl4bGwKUE5XT0s3eG1mS2ZOTzI4cFAxemNZWXV5MFVtT0p1OGdldVdjNzlSUzZUTERFMFlmbWx3cStZOTdpT3hVSHIyVwpNQ05oRzkzcEYzMS8xS2FHSXo5UEV4RlRIQnJqQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJTaHRyL1FuZXpBT1k1dWMxQ2VIR0x5Qm1WOTREQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQW12OXVDVlVRUApNdzdValNCN2I1MHdUelNFSUowK2xNam5FVFdqNnNaeGx4NHlVVndZdUgwbUNHZktwWDNDQms2NjArUklRWWZiCkE3YUtNR3BjZGx4WWZCdENjdWsvb0k4a0FWbXlWSDBITUF6TEZtalNSUGFwKzFheGM5RnRZc3lHd2ZGUTBYMTYKZEZIQUdlbWdCRFB1OXhrdGFXRjViZzdEbzZmUVBtYXF0WU00R2w5alRpcFRONkFGOFEvQnd5RWx0K0o1SmNUTQpJNjRCUjNmSmZNdTNta3VpR2tyV1VBREtxclJNbng5VDRVNVdZVTRIQXJwVlBiMEFlUVRoZ3RwSlp1Q2pHcVU1CmtLNkRxYm8yQUlLc2VPalBjUXN6RVpsWVFWK0tHTHdSOEZTelBmK21Lamk5dlRTVTcrSDdiRy9aNWFUTjg1UDIKN3UzbVdkUnVxNEVmCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://2AF465C318E2ED43A7B232A015305316.gr7.us-east-1.eks.amazonaws.com
+  name: arn:aws:eks:us-east-1:835894478497:cluster/upper-dep-us-east-1-eks-caas-03
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJSXBMZE1zdEJObmd3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBM01ESXdOVEk0TXpOYUZ3MHpOREEyTXpBd05UTXpNek5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURDSlp2cTBRdkcySDIwbkV3Q0tQK0pGMzhGeHZ5SXNiNnZHVTVTWTYyQ0FESWNTY29UVkVTemk4VEIKVUQra214YUd1Q1FnTE5UcE1NSFk0dTlGRG5kOCtVVW9la2F4TmFnNlcwWjdRc3FrWGoxTjdXUUpsYVNqS0dpWQpOVWV2QnNnRlk3Wi9RemZIbnUzcDB3N29xMzZWaW9uM1A5Kzk2TVp4RkhBNWt2R2hMZjQzaDhremRsNHU1YnQ5CmZEd3A1L2hNYXkzQjFxQitHUExBWXVSYlJVek9XRWtjcDdZSmlWZ3FwYk5mRnJmRWxkVXNqanB4MU1nUXdTU00KMHZGczNmVnhtTk55Y2gwYnBsL3JwR1JMcjY3V3dZcnlRby9iK3N6K1djTWtTa3VDSmFjdkRlazhzU0N2aWxyNwozVnZJcS9rdXJsYXpGNzY2Q3RlUHkwRVpVYytqQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJRV1lIYWIzK3czWWxScUpJVGF3VWdwbksxeWNUQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQTluS3lmcExyLwp2aGMyc2VHYjFYeFRLS3gxMmFHcUpieGVnaHRHZGwxbFNBaU9rQ1Myb3VsM1ZNbnRGZms5Y2pkRUlVK3d5ak5PCjlDMGg5SXJQYS9RdlV5N2libU5kOVNUaXp2VS9oUERRUUpZdFhGZmZ2d3JxaVRDc2dQOC92b3hzZjBJb3RPamwKelhscWJRaURMR1lBWEVZMStzYkZQL2o4dXVwcG5uV01kL29Vc2xYbkpqMmJ3S3lRSk8va2Zzc3NqajJVREFvSgoxei9BczhiRmhzbEtuRUdEaUtsWE9DWkRlYzNiYkVGd2ljRVNYR2oxWFlDbnM2S2NKOUpQQ2oveUdrUk1EQ1RxCmZUTzlBdC9VQXpkaEFkQnpJcWRaQVc2ZDlVUmFBVnhlRjJNWHo3YTJFMW55UzFXSmlIV2RnQ1E2TU5kQVhLSFoKaHZNWno4cjF0WjU0Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://F5BBC6C71437A152D92E4380988AF540.gr7.us-east-1.eks.amazonaws.com
+  name: arn:aws:eks:us-east-1:835894478497:cluster/upper-kong-us-east-1-eks-caas-03
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJUXZKenJxR0pMdlF3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TkRBM01ERXhOVFV3TVROYUZ3MHpOREEyTWpreE5UVTFNVE5hTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUNmVDFDaWo1V2U0NDVya2R6RzNHS09NTkNmcDNVQlBJYlN0aS8xV1lZZTJMYWh4NjFFTGswRDJsSjAKWDdrUlpJbWZrMXBrOXJKMDRxUnQ0YXNDVllwRWdoeGEvOS91ZDFGazJ2ZFZWNFlYS2UvOW5ZaGNPa0poUERXeQpLRnVCM3c5MU42eEF1Zm13OFpKRWgzWFJZNEFFbzJZZkRVVXFWYjg3ZW41c1BqOWJvbTJBR0ZNZURocVZRcndtCjFsTklQTGZ2eDdYRm5FL0tISjFwUmFYeG5rZ0VkcXdsay9ydWVnT284TFMvUmlWbmRwdHFlVFFMSlM1alZJaGQKWjVBWTlYZTFSdzU5dUpEWE1OTkhkMnhpUmNUQjM5VzFvSjlwZ1VXOUFaVVczT3NNZERaRTlWbWgvRzFmQUhTNwpNa0NoK0ZBMkk3RTVPaTdrcllZYlBIRkdibGJiQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJUdGd1eTdIYmJwNGJSK1hTWFYxSHJWUkVXTG9qQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ0U5YnBpSUE0WApVdlZ5SW1rRm5wNzlKYWVYTm95SjVuUFY0cTEybEVGTGpCazRHRFE3ZHYxZHV4Zk1JZWlldWpTWFAxZmJpOWhCClViMVlCR1RzZjJtaUdDckRkQWl1Y1R4eFZ1LzM2WkRJNUZ2ZUNmZXpHMGRVeXNtOXJqc3djbFZTN2IvVUlYQzcKZVUxZnYyOTV2Zm5acHFYUkhEWWxTRUFvcHNpK1dlTW0va0drMHhnSHZsaWpmNmhQWlhUbC9NdFd1azNPNWMxLwpjdVlJcGNGalR5UkJpOE41QXpUc1h0NXkwU1ZFNU8zVURLQUFWUkNWa3BXdHNTdVZFbTZZUG1PT2g3VE1hb05uCjczWFE4cHREVjBPNWtic2xCWUZNeXVSUXFzbXB6RjJzdFROTDhBZ0k2cWNNQlZ6ZEJic1VOR2EzMkNWay9TUzYKM0t2eVRvOEhsQjV6Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K
+    server: https://69DC24DADCDFA87B70ECAA98F45F04F1.gr7.us-east-1.eks.amazonaws.com
+  name: arn:aws:eks:us-east-1:835894478497:cluster/upper-ss-us-east-1-eks-caas-03
+contexts:
+- context:
+    cluster: arn:aws:eks:us-east-1:399625629242:cluster/upper-ct-apps-us-east-1-eks-caas-03
+    user: arn:aws:eks:us-east-1:399625629242:cluster/upper-ct-apps-us-east-1-eks-caas-03
+  name: arn:aws:eks:us-east-1:399625629242:cluster/upper-ct-apps-us-east-1-eks-caas-03
+- context:
+    cluster: arn:aws:eks:us-east-1:399625629242:cluster/upper-ct-apps-us-east-1-eks-caas-04
+    user: arn:aws:eks:us-east-1:399625629242:cluster/upper-ct-apps-us-east-1-eks-caas-04
+  name: arn:aws:eks:us-east-1:399625629242:cluster/upper-ct-apps-us-east-1-eks-caas-04
+- context:
+    cluster: arn:aws:eks:us-east-1:835894478497:cluster/upper-dep-us-east-1-eks-caas-03
+    user: arn:aws:eks:us-east-1:835894478497:cluster/upper-dep-us-east-1-eks-caas-03
+  name: arn:aws:eks:us-east-1:835894478497:cluster/upper-dep-us-east-1-eks-caas-03
+- context:
+    cluster: arn:aws:eks:us-east-1:835894478497:cluster/upper-kong-us-east-1-eks-caas-03
+    user: arn:aws:eks:us-east-1:835894478497:cluster/upper-kong-us-east-1-eks-caas-03
+  name: arn:aws:eks:us-east-1:835894478497:cluster/upper-kong-us-east-1-eks-caas-03
+- context:
+    cluster: arn:aws:eks:us-east-1:835894478497:cluster/upper-ss-us-east-1-eks-caas-03
+    user: arn:aws:eks:us-east-1:835894478497:cluster/upper-ss-us-east-1-eks-caas-03
+  name: arn:aws:eks:us-east-1:835894478497:cluster/upper-ss-us-east-1-eks-caas-03
+current-context: arn:aws:eks:us-east-1:399625629242:cluster/upper-ct-apps-us-east-1-eks-caas-03
+kind: Config
+preferences: {}
+users:
+- name: arn:aws:eks:us-east-1:399625629242:cluster/upper-ct-apps-us-east-1-eks-caas-03
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - us-east-1
+      - eks
+      - get-token
+      - --cluster-name
+      - upper-ct-apps-us-east-1-eks-caas-03
+      - --role
+      - arn:aws:iam::399625629242:role/eks-upper-iamrole
+      command: aws
+      env: null
+      provideClusterInfo: false
+- name: arn:aws:eks:us-east-1:399625629242:cluster/upper-ct-apps-us-east-1-eks-caas-04
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - us-east-1
+      - eks
+      - get-token
+      - --cluster-name
+      - upper-ct-apps-us-east-1-eks-caas-04
+      - --role
+      - arn:aws:iam::399625629242:role/eks-upper-iamrole
+      command: aws
+      env: null
+      provideClusterInfo: false
+- name: arn:aws:eks:us-east-1:835894478497:cluster/upper-dep-us-east-1-eks-caas-03
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - us-east-1
+      - eks
+      - get-token
+      - --cluster-name
+      - upper-dep-us-east-1-eks-caas-03
+      - --role
+      - arn:aws:iam::835894478497:role/eks-upper-iamrole
+      command: aws
+      env: null
+      provideClusterInfo: false
+- name: arn:aws:eks:us-east-1:835894478497:cluster/upper-kong-us-east-1-eks-caas-03
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - us-east-1
+      - eks
+      - get-token
+      - --cluster-name
+      - upper-kong-us-east-1-eks-caas-03
+      - --role
+      - arn:aws:iam::835894478497:role/eks-upper-iamrole
+      command: aws
+      env: null
+      provideClusterInfo: false
+- name: arn:aws:eks:us-east-1:835894478497:cluster/upper-ss-us-east-1-eks-caas-03
+  user:
+    exec:
+      apiVersion: client.authentication.k8s.io/v1beta1
+      args:
+      - --region
+      - us-east-1
+      - eks
+      - get-token
+      - --cluster-name
+      - upper-ss-us-east-1-eks-caas-03
+      - --role
+      - arn:aws:iam::835894478497:role/eks-upper-iamrole
+      command: aws
+      env: null
+      provideClusterInfo: false
